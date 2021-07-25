@@ -1,7 +1,67 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+:root {
+  --background: #1a1d23;
+  --info: #bbbbbb;
+  --body: #d7d7d7;
+  --heading: #f8f8f8;
+  --highlight: #ff57b2;
 }
 
-// TODO
+html {
+  font: 400 16px Inter;
+  background-color: var(--background);
+
+  @media (max-width: 992px) {
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 75%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem Inter;
+  color: var(--body);
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent !important;
+}

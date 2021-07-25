@@ -1,1 +1,29 @@
-// TODO
+.maxWidth {
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  max-width: 720px;
+}
+
+div.postInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  span {
+    color: var(--info);
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      color: var(--info);
+    }
+  }
+}
