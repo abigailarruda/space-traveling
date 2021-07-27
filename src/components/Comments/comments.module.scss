@@ -1,0 +1,13 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--heading);
+
+  @media (max-width: 768px) {
+    font-size: 1.125rem;
+  }
+}
+
+.comments {
+  padding: 1rem 0 5rem;
+}

@@ -18,6 +18,7 @@ git clone https://github.com/abigailarruda/space-traveling.git
 
 ```bash
 PRISMIC_API_ENDPOINT= # Endereço disponível no Prismic em Settings > API & Security > API endpoint
+PRISMIC_ACCESS_TOKEN= # Chave do Prismic, disponível em Settings > API & Security > Permanent access tokens
 ```
 
 3. Instale as dependências

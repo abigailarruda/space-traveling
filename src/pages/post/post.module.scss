@@ -29,7 +29,6 @@
 
   .postContent {
     margin-top: 4rem;
-    padding-bottom: 2rem;
 
     font-size: 1.125rem;
     line-height: 2rem;
@@ -75,5 +74,51 @@
 
   @media (max-width: 768px) {
     font-size: 1.5rem;
+  }
+}
+
+.divider {
+  margin: 3rem auto;
+
+  max-width: 656px;
+
+  outline: 0;
+  border: 0;
+  border-top: 1px solid rgba(215, 215, 215, 0.1);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5rem;
+
+  .prev,
+  .next {
+    h4 {
+      font-size: 1.125rem;
+      letter-spacing: -0.5px;
+      font-weight: 400;
+      color: var(--heading);
+
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--highlight);
+      text-decoration: none;
+      font-size: 1rem;
+      letter-spacing: -0.5px;
+      font-weight: 600;
+    }
+  }
+
+  .prev {
+    text-align: left;
+  }
+
+  .next {
+    text-align: right;
   }
 }
